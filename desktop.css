@@ -1,0 +1,49 @@
+﻿html {
+    scroll-behavior: smooth;
+
+}
+
+body {
+    margin:0%;
+}
+
+.header {
+    font-family: 'Ubuntu', sans-serif;
+    height: 700px;
+    width: 100%;
+    background-image: url("images/bg-pattern-intro.svg"), linear-gradient(to right, hsl(13, 100%, 72%), hsl(353, 100%, 62%));
+    background-repeat: no-repeat, no-repeat;
+    background-position: 28% 51%;
+    border-bottom-left-radius: 125px;
+}
+
+.header-nav {
+    position: relative;
+    padding-top: 40px;
+    margin-left: 8vw;
+    display: flex;
+
+
+}
+
+.navbar-title {
+    font-weight: 500;
+    font-size: 42px;
+    color: hsl(0, 0%, 100%);
+    
+}
+
+.navbar {
+    list-style: none;
+    display: flex;
+    justify-content: flex-start; 
+}
+
+.navbar-buttons {
+    color: hsl(0, 0%, 100%);
+    position: relative;
+    margin: 0 1em;
+}
+
+
+
